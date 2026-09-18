@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fluixmagicweapons:item/void_reaper_scythe"
+  }
+}

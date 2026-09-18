@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "fluixmagicweapons",
+	"version": "${version}",
+	"name": "Fluix's Magic Weapons",
+	"description": "Adds five unique magic weapons, each with its own crafting recipe and special on-hit effect: a frost blade that slows, a fiery reaver that ignites, a shocking warhammer, a soul-draining scythe, and a storm-touched trident.",
+	"authors": [
+		"Fluix"
+	],
+	"contact": {
+		"sources": "https://github.com/fluixmc02-sketch/Fluix-s-Magic-Weapons"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fluixmagicweapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fluix.magicweapons.FluixMagicWeapons"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

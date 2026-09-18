@@ -1,0 +1,20 @@
+{
+	"itemGroup.fluixmagicweapons.magic_weapons": "Fluix's Magic Weapons",
+
+	"item.fluixmagicweapons.arcane_crystal": "Arcane Crystal",
+
+	"item.fluixmagicweapons.frostbite_blade": "Frostbite Blade",
+	"item.fluixmagicweapons.frostbite_blade.tooltip": "Chills foes to the bone, slowing them and fouling their reflexes",
+
+	"item.fluixmagicweapons.infernal_reaver": "Infernal Reaver",
+	"item.fluixmagicweapons.infernal_reaver.tooltip": "Wreathed in nether flame - sets enemies ablaze",
+
+	"item.fluixmagicweapons.voltaic_hammer": "Voltaic Hammer",
+	"item.fluixmagicweapons.voltaic_hammer.tooltip": "Crackles with stored lightning - shocks and weakens on impact",
+
+	"item.fluixmagicweapons.void_reaper_scythe": "Void Reaper Scythe",
+	"item.fluixmagicweapons.void_reaper_scythe.tooltip": "Tears at the soul - withers enemies and heals the wielder",
+
+	"item.fluixmagicweapons.stormcaller_trident": "Stormcaller Trident",
+	"item.fluixmagicweapons.stormcaller_trident.tooltip": "Channels the storm - may call down lightning on the struck foe"
+}

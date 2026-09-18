@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "CIC",
+    "AIA",
+    " S "
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "I": "minecraft:iron_ingot",
+    "A": "fluixmagicweapons:arcane_crystal",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "fluixmagicweapons:voltaic_hammer",
+    "count": 1
+  }
+}

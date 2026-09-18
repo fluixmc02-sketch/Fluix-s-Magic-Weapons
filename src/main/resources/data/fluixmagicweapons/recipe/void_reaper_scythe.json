@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " BB",
+    "GBA",
+    " S "
+  ],
+  "key": {
+    "B": "minecraft:bone",
+    "G": "minecraft:ghast_tear",
+    "A": "fluixmagicweapons:arcane_crystal",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "fluixmagicweapons:void_reaper_scythe",
+    "count": 1
+  }
+}
