@@ -24,7 +24,7 @@ public class InfernalReaverItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+	public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 		target.setRemainingFireTicks(Math.max(target.getRemainingFireTicks(), FIRE_DURATION_TICKS));
 
 		Level level = target.level();
@@ -35,7 +35,7 @@ public class InfernalReaverItem extends Item {
 					20, 0.3, 0.4, 0.3, 0.05);
 		}
 
-		return super.hurtEnemy(stack, target, attacker);
+		super.hurtEnemy(stack, target, attacker);
 	}
 
 	@Override

@@ -24,9 +24,9 @@ public class FrostbiteBladeItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-		target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 1));
-		target.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 100, 0));
+	public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+		target.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 100, 1));
+		target.addEffect(new MobEffectInstance(MobEffects.MINING_FATIGUE, 100, 0));
 
 		Level level = target.level();
 
@@ -36,7 +36,7 @@ public class FrostbiteBladeItem extends Item {
 					24, 0.35, 0.45, 0.35, 0.02);
 		}
 
-		return super.hurtEnemy(stack, target, attacker);
+		super.hurtEnemy(stack, target, attacker);
 	}
 
 	@Override

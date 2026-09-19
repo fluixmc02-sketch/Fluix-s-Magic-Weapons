@@ -27,7 +27,7 @@ public class StormcallerTridentItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+	public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 		target.addEffect(new MobEffectInstance(MobEffects.GLOWING, 40, 0));
 
 		Level level = target.level();
@@ -40,7 +40,7 @@ public class StormcallerTridentItem extends Item {
 			}
 		}
 
-		return super.hurtEnemy(stack, target, attacker);
+		super.hurtEnemy(stack, target, attacker);
 	}
 
 	@Override

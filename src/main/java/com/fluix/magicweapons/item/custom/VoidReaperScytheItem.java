@@ -26,7 +26,7 @@ public class VoidReaperScytheItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+	public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
 		target.addEffect(new MobEffectInstance(MobEffects.WITHER, 60, 0));
 		attacker.heal(LIFESTEAL_AMOUNT);
 
@@ -38,7 +38,7 @@ public class VoidReaperScytheItem extends Item {
 					16, 0.3, 0.4, 0.3, 0.03);
 		}
 
-		return super.hurtEnemy(stack, target, attacker);
+		super.hurtEnemy(stack, target, attacker);
 	}
 
 	@Override

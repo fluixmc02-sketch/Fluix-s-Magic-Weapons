@@ -24,8 +24,8 @@ public class VoltaicHammerItem extends Item {
 	}
 
 	@Override
-	public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-		target.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 60, 3));
+	public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+		target.addEffect(new MobEffectInstance(MobEffects.SLOWNESS, 60, 3));
 		target.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 100, 0));
 		target.addEffect(new MobEffectInstance(MobEffects.GLOWING, 60, 0));
 
@@ -37,7 +37,7 @@ public class VoltaicHammerItem extends Item {
 					30, 0.4, 0.5, 0.4, 0.1);
 		}
 
-		return super.hurtEnemy(stack, target, attacker);
+		super.hurtEnemy(stack, target, attacker);
 	}
 
 	@Override
